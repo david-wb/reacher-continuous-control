@@ -15,9 +15,6 @@ Here are the hyper parameters used for training.
 
 I used the Unity environment containing 20 different agents. At each step of the environment `(state, action, reward, next_state, done)` tuples are computed for each of the 20 agents and added to the replay buffer. The code then runs 2 optimization steps with each with a different sample from the replay buffer.
 
-# Q-Function Model Description
-The Q function model is a feedforward neural network with 37 input units with two hidden layers of 64 units and relu activations and a final linear output layer of 4 outputs.
-
 # Plot of Rewards (each point is a mean over all 20 agents)
 ![](scores.png)
 
